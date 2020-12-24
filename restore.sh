@@ -64,7 +64,7 @@ function validate_url(){
 # inputs
 USER=$1
 PASS=$2
-DIR=${3:-$HOME/cloudbox}
+DIR=${3:-/srv/git/cloudbox}
 
 # validate inputs
 if [ -z "$USER" ] || [ -z "$PASS" ]
