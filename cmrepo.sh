@@ -18,7 +18,7 @@
 
 ## Variables
 COMMUNITY_PATH="$HOME/community"
-COMMUNITY_REPO="https://github.com/Cloudbox/Community.git"
+COMMUNITY_REPO="https://github.com/DomGrieco/Community.git"
 
 ## Clone Community and pull latest commit
 if [ -d "$COMMUNITY_PATH" ]; then
